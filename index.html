@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    <title>Pars Ecommerce</title>
+</head>
+<body>
+    <div class="website">
+        <nav>
+            <p>Ecommerce</p>
+
+            <i class='bx bx-shopping-bag'></i>
+            <span class="order-product-number"></span>
+        </nav>
+
+        <main>
+            <h2>Shop Products</h2>
+
+            <div class="products">
+                <div class="product">
+                    <img class="product-img" src="./image/product1.jpg" alt="">
+
+                    <div class="product-info">
+                        <div>
+                            <h3 class="product-name">aeroready shirt</h3>
+                            <p class="product-price">$25</p>
+                        </div>
+                        <div class="product-btns">
+                            <button class="details-btn">Details</button>
+                            <button class="add-to-cart-btn"><i class='bx bx-shopping-bag'></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img class="product-img" src="./image/product2.jpg" alt="">
+                    
+                    <div class="product-info">
+                        <div>
+                            <h3 class="product-name">wirelless earbuds</h3>
+                            <p class="product-price">$100</p>
+                        </div>
+                        <div class="product-btns">
+                            <button class="details-btn">Details</button>
+                            <button id="" class="add-to-cart-btn"><i class='bx bx-shopping-bag'></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img class="product-img" src="./image/product3.jpg" alt="">
+                    
+                    <div class="product-info">
+                        <div>
+                            <h3 class="product-name">hooded parka</h3>
+                            <p class="product-price">$45</p>
+                        </div>
+                        <div class="product-btns">
+                            <button class="details-btn">Details</button>
+                            <button class="add-to-cart-btn"><i class='bx bx-shopping-bag'></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img class="product-img" src="./image/product4.jpg" alt="">
+                    
+                    <div class="product-info">
+                        <div>
+                            <h3 class="product-name">straw metal bottle</h3>
+                            <p class="product-price">$24.04</p>
+                        </div>
+                        <div class="product-btns">
+                            <button class="details-btn">Details</button>
+                            <button id="" class="add-to-cart-btn"><i class='bx bx-shopping-bag'></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img class="product-img" src="./image/product5.jpg" alt="">
+                    
+                    <div class="product-info">
+                        <div>
+                            <h3 class="product-name">metal sunglasses</h3>
+                            <p class="product-price">$50</p>
+                        </div>
+                        <div class="product-btns">
+                            <button class="details-btn">Details</button>
+                            <button class="add-to-cart-btn"><i class='bx bx-shopping-bag'></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img class="product-img" src="./image/product6.jpg" alt="">
+                    
+                    <div class="product-info">
+                        <div>
+                            <h3 class="product-name">back hat</h3>
+                            <p class="product-price">$50</p>
+                        </div>
+                        <div class="product-btns">
+                            <button class="details-btn">Details</button>
+                            <button class="add-to-cart-btn"><i class='bx bx-shopping-bag'></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img class="product-img" src="./image/product7.jpg" alt="">
+                    
+                    <div class="product-info">
+                        <div>
+                            <h3 class="product-name">backpack</h3>
+                            <p class="product-price">$70</p>
+                        </div>
+                        <div class="product-btns">
+                            <button class="details-btn">Details</button>
+                            <button class="add-to-cart-btn"><i class='bx bx-shopping-bag'></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img class="product-img" src="./image/product8.jpg" alt="">
+                    
+                    <div class="product-info">
+                        <div>
+                            <h3 class="product-name">ultraboost 22</h3>
+                            <p class="product-price">$25</p>
+                        </div>
+                        <div class="product-btns">
+                            <button class="details-btn">Details</button>
+                            <button id="" class="add-to-cart-btn"><i class='bx bx-shopping-bag'></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="cart-parent" id="">
+        <div class="cart">
+            <h2>Your Cart</h2>
+
+            <img class="cart-close-btn" src="image/icon-close.png" alt="">
+
+            <div class="products-in-cart">
+                <!-- <div class="product-in-cart">
+                    <div>
+                        <img class="product-in-cart-img" src="image/product8.jpg" alt="">
+
+                        <div class="product-in-cart-info">
+                            <h4 class="product-in-cart-name">backpack</h4>
+                            <p class="product-in-cart-price">$70</p>
+                            <input type="number" value="1" name="" class="product-in-cart-number">
+                        </div>
+                    </div>
+
+                    <i class='bx bxs-trash-alt'></i>
+                </div> -->
+            </div>
+
+            <button class="buy-btn">Buy Now</button>
+        </div>
+    </div>
+
+    <div class="product-details-parent" id="">
+        <div class="product-details">
+            <img class="product-details-img" src="" alt="">
+
+            <div class="product-details-text">
+                <img class="product-details-close-btn" src="image/icon-close.png" alt="">
+
+                <h1 class="product-details-name">wirelless earbud</h1>
+                <p class="product-details-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi molestias nemo quo obcaecati voluptatibus temporibus voluptatum inventore laboriosam, culpa nulla cupiditate vero, vitae similique autem, consequatur voluptates. aliquam ratione illo dolores placeat natus libero expedita odio explicabo!</p>
+                <p>Price: <span class="product-details-price">$100</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="alert" id="">
+        <h3>Your order is placed</h3>
+        <button>OK</button>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
